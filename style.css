@@ -1,0 +1,60 @@
+:root {
+    --color-primary: #eb443a;
+    --color-fg-900: #212121;
+    --color-fg-600: #535353;
+    --color-fg-200: #bfbfbf;
+    --color-bg-900: #ffffff;
+}
+@font-face {
+    font-family: "Satoshi-Variable";
+    src: url("./Satoshi-Variable.woff2") format("woff2");
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+html,
+body, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--color-bg-900);
+    color: var(--color-fg-900);
+    font-size: 18px;
+    padding: 24px;
+    font-family: "Satoshi-Variable", sans-serif;
+    font-weight: 300;
+}
+article,
+aside {
+    max-width: 512px;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 0 auto;
+}
+article {
+    border: 2px solid var(--color-primary);
+}
+.logo {
+    width: 50%;
+}
+h1 {
+    margin: 16px 0;
+    font-size: 1.25em;
+}
+p {
+    line-height: 1.25em;
+    margin: 16px 0;
+}
+.disclaimer {
+    color: var(--color-fg-600);
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+a {
+    color: var(--color-fg-900);
+}
+a:hover {
+    color: var(--color-primary);
+}
