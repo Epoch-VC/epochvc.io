@@ -28,6 +28,31 @@ body {
     font-family: "Satoshi-Variable", sans-serif;
     font-weight: 300;
 }
+h1 {
+    margin: 16px 0;
+    font-size: 1.25em;
+}
+h2 {
+    margin: 16px 0;
+    font-size: 1.15em;
+    font-weight: 400;
+}
+p {
+    line-height: 1.25em;
+    margin: 16px 0;
+}
+.disclaimer {
+    color: var(--color-fg-600);
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+a {
+    color: var(--color-fg-900);
+}
+a:hover {
+    color: var(--color-primary);
+}
 article,
 aside {
     max-width: 512px;
@@ -37,6 +62,21 @@ aside {
 }
 article {
     border: 2px solid var(--color-primary);
+}
+article ul {
+    list-style: square;
+    margin: 2em 0;
+    padding: 0;
+    display: block;
+}
+article ul li {
+    color: var(--color-primary);
+    margin: 0 0 0 1em;
+    padding: 0;
+}
+article ul li a {
+    color: var(--color-fg-900);
+    text-decoration: none;
 }
 article nav {
     text-transform: uppercase;
@@ -62,29 +102,4 @@ article nav ul li a {
 }
 article section + section {
     margin-top: 2em;
-}
-h1 {
-    margin: 16px 0;
-    font-size: 1.25em;
-}
-h2 {
-    margin: 16px 0;
-    font-size: 1.15em;
-    font-weight: 400;
-}
-p {
-    line-height: 1.25em;
-    margin: 16px 0;
-}
-.disclaimer {
-    color: var(--color-fg-600);
-    font-size: 12px;
-    font-style: italic;
-    margin: 0;
-}
-a {
-    color: var(--color-fg-900);
-}
-a:hover {
-    color: var(--color-primary);
 }
