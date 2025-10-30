@@ -74,7 +74,7 @@ article ul li {
     margin: 0 0 0 1em;
     padding: 0;
 }
-article ul li a {
+article ul li a, article ul li span {
     color: var(--color-fg-900);
     text-decoration: none;
 }
